@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-1">
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+               <strong class="text-dark">Bluehawks</strong>
+              </a>
+              <!-- <a class="float-right" style="text-decoration: none;"><strong>User</strong></a> -->
+              <a href="/login" class="float-right text-white" style="text-decoration: none;">Log out</a>
+          </nav>
+    </div>
+    
+    <div class="container mt-3 mb-5">
+        <form action="/payment" method="GET">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Register</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">TOEFL</th>
+                    <td>Teaching of english as a foreign languae</td>
+                    <td>3000</td>
+                    <td><input type="checkbox" name="toefl"  value="3000" id="3000">
+                  </tr>
+                  <tr>
+                    <th scope="row">English</th>
+                    <td>Become fluent in English from our professional speakers</td>
+                    <td>4000</td>
+                    <td><input type="checkbox" name="english"  value="4000" id="4000"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Programming</th>
+                    <td>Learn object oriented programming from powerfull languages like java</td>
+                    <td>5000</td>
+                    <td><input type="checkbox" name="programming"  value="5000" id="5000"></td>
+                  </tr>
+                </tbody>
+              </table>
+             <div class="mt-3">
+                <center>Purchase to complete registration  <input type="submit" class="btn btn-primary" value="Purchase"></center>
+             </div>
+        </form>
+    </div>
+
+</body>
+</html>

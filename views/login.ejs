@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Login|Bluehawks</title>
+</head>
+<body>
+    <!-- <form action="/loginauth" method="POST">
+        email: <input type="text" name="email">
+        password: <input type="password" name="password">
+        <br>
+        <input type="submit">
+    </form> -->
+
+    <div class="container mt-1">
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+                
+                <strong class="text-dark">Bluehawks</strong>
+              </a>
+          </nav>
+    </div>
+    <div class="container mt-3">
+        <div class="login">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 m-auto">
+                        <h2 class="display-4 text-center"><strong>Log In</strong></h2>
+                        <p class="lead text-center">Sign in to your account</p>
+                        <form action="/loginauth" method="POST">
+                            <div class="form-group">
+                                <center><label for="" class="display-4"><small>Email</small></label></center>
+                                <input type="text" name="email" placeholder="john@bluehawks.com" class="form-control">
+                            </div>
+                            <br>
+                            
+                            <div class="form-group">
+                                <center><label for="" class="display-4"><small>Password</small></label></center>
+                                <input type="password" name="password" placeholder="password" class="form-control">
+                            </div>
+                            <br>
+                            <input type="submit" class="btn btn-info btn-block mt-4">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

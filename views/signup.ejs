@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Sign up| Bluehawks</title>
+</head>
+<body>
+    <div class="container mt-1">
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+                <strong class="text-dark">Bluehawks</strong>
+              </a>
+          </nav>
+    </div>
+    <div class="container mt-4">
+        <form action="/signupauth" method="POST" class="form">
+            <div class="form-group">
+                <label for="" class="h2"><small>Email</small> </label>
+                <input type="text" name="email" class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="" class="h2"><small>Name</small> </label>
+                <input type="text" name="name" class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="" class="h2"><small>Phone number </small></label>
+                <input type="text" name="phone" class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="" class="h2"><small>Password</small></label>
+                <input type="password" name="password" class="form-control">
+            </div>
+            <br>
+            <input type="submit" class="btn btn-info btn-block mt-4">
+        </form>
+    </div>
+</body>
+</html>
